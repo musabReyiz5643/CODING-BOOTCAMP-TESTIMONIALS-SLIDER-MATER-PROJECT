@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components {
+  .Animation-component {
+    @apply transition-all duration-150 ease-in-out;
+  }
+  .box-shadow-component {
+    @apply shadow-2xl;
+  }
+}
